@@ -1,0 +1,9 @@
+1   begin
+2   numeric  n
+3   display "enter a number"
+4   accept n
+5   for i=1 to 10 
+6       start
+7       display i*n
+8       stop
+9   end

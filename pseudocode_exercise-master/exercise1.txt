@@ -1,0 +1,6 @@
+1 begin
+2 numeric r
+3 display "enter the radius"
+4 accept r
+5 area=pi*r*r
+6 display area

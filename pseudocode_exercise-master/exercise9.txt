@@ -1,0 +1,12 @@
+begin
+char StudentID,StudentName
+numeric StudentAge,Marks1,Marks2,Marks3
+display "enter StudentID, StudentName,StudentAge,Marks1,Marks2,Marks3"
+accept StudentID, StudentName,StudentAge,Marks1,Marks2,Marks3
+total <- Marks1+Marks2 + Marks3
+percentage <- (total/300)*100
+if (percentage>50),then 
+    display "PASS"
+else 
+    display "FAIL"
+end

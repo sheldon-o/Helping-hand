@@ -1,0 +1,21 @@
+begin
+numeric n
+display "enter a number from 1 to 7"
+accept n
+if (n=1),then
+    display"monday"
+else if (n=2),then
+    display"tuesday"
+else if (n=3),then
+    display"wednesday"
+else if (n=4),then
+    display"thrusday"
+else if (n=5),then
+    display"friday"
+else if (n=6),then
+    display"saturday"
+else if (n=7),then
+    display"sunday"
+else
+    display "invalid number"
+end

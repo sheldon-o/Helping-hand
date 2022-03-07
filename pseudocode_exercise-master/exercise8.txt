@@ -1,0 +1,22 @@
+begin
+numeric a,b
+display "enter two numebers"
+accept a,b
+char c
+display "enter operation"
+accept c 
+if (c='+'),then
+    sum <- a+b
+    display sum
+else if (c='-'),then
+    diff <- a-b
+    display diff
+else if (c='/'),then
+    div <- a/be
+    display div
+else if (c='*'),then
+    prod <- a*b
+    display prod
+else 
+    display "invalid operator"
+end

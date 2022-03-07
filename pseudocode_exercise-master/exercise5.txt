@@ -1,0 +1,9 @@
+begin
+numeric a,b
+diplay "enter two numbers"
+accept a,b
+a <- a+b
+b <- a-b
+a <- a-b
+diplay a,b
+end

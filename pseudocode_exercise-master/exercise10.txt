@@ -1,0 +1,10 @@
+begin
+a <- 0
+b <- 1
+while (a<100) do
+    display a
+    temp <-a
+    a <- b
+    b <- a+temp
+end while
+end

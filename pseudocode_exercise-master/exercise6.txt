@@ -1,0 +1,12 @@
+begin
+numeric n 
+bool flag<-false
+display "enter a number"
+accept n 
+for i=1 to n do
+    if (i*i=n),then 
+        display " it is a perfect square"
+        flag<-true
+if (flag=false),then
+    display "not a perfect square"
+end

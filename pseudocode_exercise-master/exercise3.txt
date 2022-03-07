@@ -1,0 +1,12 @@
+1   begin
+2   numerics n
+3   display "enter a number"
+4   accept n
+5   for i=1 to n/2 do
+6       if(n%i)=0,then
+7       s=s+i
+8   if s==n 
+9       display "perfect number"
+10  else 
+        display "not a perfect number"
+
